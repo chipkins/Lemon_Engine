@@ -1,0 +1,9 @@
+[package]
+name = "lemon"
+version = "0.1.0"
+authors = ["chipkins <chipkins@csh.rit.edu>"]
+
+[dependencies]
+gfx = "*"
+gfx_app = "*"
+cgmath = "*"
