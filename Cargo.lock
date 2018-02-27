@@ -364,6 +364,26 @@ dependencies = [
  "cgmath 0.15.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "gfx 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "gfx_app 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "lemon_core 0.1.0",
+ "lemon_render 0.1.0",
+]
+
+[[package]]
+name = "lemon_core"
+version = "0.1.0"
+dependencies = [
+ "cgmath 0.15.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gfx 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gfx_app 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "lemon_render"
+version = "0.1.0"
+dependencies = [
+ "cgmath 0.15.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gfx 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gfx_app 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

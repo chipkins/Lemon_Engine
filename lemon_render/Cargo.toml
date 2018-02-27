@@ -1,11 +1,9 @@
 [package]
-name = "lemon"
+name = "lemon_render"
 version = "0.1.0"
 authors = ["chipkins <chipkins@csh.rit.edu>"]
 
 [dependencies]
-lemon_core = { path = "lemon_core" }
-lemon_render = { path = "lemon_render" }
 gfx = "*"
 gfx_app = "*"
 cgmath = "*"
